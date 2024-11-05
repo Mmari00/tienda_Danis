@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danis</title>
+    <link rel="icon" href="imagenes/Logo Gomitas Enchiladas Colorido Rosa y Rojo (4).png">
+    <link rel="stylesheet" href="plantilla.css">
+    <script src="https://kit.fontawesome.com/e8eddfdd15.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <header class="header" style="background: #D8D8D6;">
+
+        <!--MENU-->
+
+        <div class="menu container" >
+            <a href="#" class="logo"><img src="imagenes/Logo Gomitas Enchiladas Colorido Rosa y Rojo (2).png" alt="" style="width: 350px; margin-top: 20px; margin-left: -100px;"></a>
+            <input type="chackbox" id="menu" />
+            <label for="menu">
+                <img src="img/menu_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" class="menu-icono" alt="menu">
+            </label>
+
+            <!--NAVBAR-->
+
+            <nav class="navbar" style="margin-left: -250px; text-transform: uppercase; ">
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#">MUJER</a></li>
+                    <li><a href="#">BEBÉ</a></li>
+                    
+                    <li><a href="#">OFERTAS</a></li>
+                </ul>
+            </nav>
+
+            <!--SUBMENU-->
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <i class="fa-solid fa-cart-shopping fa-xl"></i>
+
+                        <div id="carrito">
+                            
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Producto</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                               <tbody></tbody> 
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2" style="margin-left: 110px;">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </header>
+
+    
+    <!-- <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/Historia de Instagram Collage Fotográfico Minimalista Blanco Marrón.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Producto 1</h3>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/Historia de instagram Tienda de ropa Moderno Crema.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Producto 2</h3>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/Neutral Minimalist Clothes Store Instagram Post.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Producto 3</h3>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+        </div>
+    </section>  -->
+
+    <main class="products container" id="lista-1">
+        <h1 style="margin-top: -40px;">Ropa Mujer</h1>
+
+       <div class="product-content" style="margin-top: 20px;">
+        <div class="product">
+            <img src="imagenes/1.png" alt="">
+            <div class="product-txt">
+                <h3>Elisuyum</h3>
+                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1" style="margin-top: 17px;">Más información</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="imagenes/1.png" alt="">
+            <div class="product-txt">
+                <h3>Elisuyum</h3>
+                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="2" style="margin-top: -17px;">Más información</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="imagenes/1.png" alt="">
+            <div class="product-txt">
+                <h3>Elisuyum</h3>
+                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="3" style="margin-top: -17px;">Más información</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="imagenes/1.png" alt="">
+            <div class="product-txt">
+                <h3>Elisuyum</h3>
+                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="4" style="margin-top: 17px;">Más información</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="imagenes/1.png" alt="">
+            <div class="product-txt">
+                <h3>Elisuyum</h3>
+                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="5" style="margin-top: -17px;">Más información</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="imagenes/1.png" alt="">
+            <div class="product-txt">
+                <h3>Elisuyum</h3>
+                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+               
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="6" style="margin-top: -17px;">Más información</a>
+            </div>
+        </div>
+       </div> 
+    </main>
+
+    <!-- <section class="icons container">
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/checkroom_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>
+                    amet consectetur adipisicing elit.
+                </p>   
+            </div>
+        </div>
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/iron_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>
+                    amet consectetur adipisicing elit.
+                </p>   
+            </div>
+        </div>
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/styler_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>
+                    amet consectetur adipisicing elit.
+                </p>   
+            </div>
+        </div>
+    </section> -->
+
+    <section class="blog container">
+        <div class="blog-1" >
+            <img src="img/Documento A4 Catalogo Tienda de ropa Moderno Negro (3).png" alt="">
+            <h3 style="font-size: larger;">Categoría</h3>
+            <p>
+                <i class="fa-regular fa-square fa-xl" style="font-family:Arial, Helvetica, sans-serif;">Blusas</i>
+                <p></p>
+                <i class="fa-regular fa-square fa-xl" style="font-family:Arial, Helvetica, sans-serif;">Chaquetas</i>
+                <p></p>
+                <i class="fa-regular fa-square fa-xl" style="font-family:Arial, Helvetica, sans-serif;">Gorros</i>
+                <p></p>
+                <i class="fa-regular fa-square fa-xl" style="font-family:Arial, Helvetica, sans-serif;">Tops</i>
+               
+            </p>
+        </div>
+        <div class="blog-1">
+            <img src="img/Documento A4 Catalogo Tienda de ropa Moderno Negro (4).png" alt="">
+            <h3>Color</h3>
+            <p>
+                <i class="fa-solid fa-square " style="color: #000000;"></i>
+                <i class="fa-solid fa-square" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-square" style="color: #f1c40f ;"></i>
+                <i class="fa-solid fa-square" style="color: #8e44ad;"></i>
+                <i class="fa-solid fa-square" style="color: #2ecc71 ;"></i>
+                <i class="fa-solid fa-square" style="color: #3498db"></i>
+                <i class="fa-solid fa-square" style="color: #B197FC;"></i>
+            </p>
+        </div>
+        <div class="blog-1">
+            <img src="img/Documento A4 Catalogo Tienda de ropa Moderno Negro (5).png" alt="">
+            <h3>Talla</h3>
+            <p>
+                <i class="fa-regular fa-square fa-xl" style="font-family:Arial, Helvetica, sans-serif;">S</i>
+                <p></p>
+                <i class="fa-regular fa-square fa-xl" style="font-family:Arial, Helvetica, sans-serif;">M</i>
+                <p></p>
+                <i class="fa-regular fa-square fa-xl" style="font-family:Arial, Helvetica, sans-serif;">L</i>
+                <p></p>
+                <i class="fa-regular fa-square fa-xl" style="font-family:Arial, Helvetica, sans-serif;">XL</i>
+            </p>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+
+    <footer class="footer" >
+        <div class="footer-content container">
+            
+            <div class="link" ">
+                <h3>© Danis. Todos los derechos reservados.</h3>
+               
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="scrip.js"></script>
+</body>
+</html>
