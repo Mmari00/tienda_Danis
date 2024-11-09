@@ -4,6 +4,7 @@ const loginBtn = document.getElementById('login');
 const register = document.getElementById('uno');
 const login = document.getElementById('dos');
 
+
 registerBtn.addEventListener('click', () => {
     container.classList.add("active");
     
@@ -23,5 +24,4 @@ login.addEventListener('click', () => {
     alert('¡Ingreso exitoso! Bienvenid@ otra vez.');
     
 });
-
 

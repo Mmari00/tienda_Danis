@@ -11,7 +11,6 @@
 </head>
 <body>
    
-    
 
     
 
@@ -21,35 +20,37 @@
             <form>
                 <h1>Crea tu cuenta</h1>
                 <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://workspace.google.com/intl/es/gmail/" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="https://www.facebook.com/" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/?lang=es" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://support.apple.com/es-co/111001" class="icon"><i class="fa-brands fa-apple fa-lg"></i></a>
                 </div>
                 <span>También puedes usar tu correo para registrarte.</span>
-                <input type="text" placeholder="Nombre">
-                <input type="corre" placeholder="Correo">
-                <input type="contraseña" placeholder="Contraseña">
-                <button>¡Regístrate!</button>
+                <input type="text" placeholder="Nombre" required>
+                <input type="corre" placeholder="Correo" required>
+                <input type="contraseña" placeholder="Contraseña" required>
+                <button class="register" id="uno">¡Regístrate!</button>
             </form>
         </div>
         <div class="form-container sign-in">
             <form>
                 <h1>Iniciar Sesión</h1>
                 <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://workspace.google.com/intl/es/gmail/" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="https://www.facebook.com/" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/?lang=es" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://support.apple.com/es-co/111001" class="icon"><i class="fa-brands fa-apple fa-lg"></i></a>
                 </div>
                 <span>Usa tu medio favorito para ingresar a tu perfil.</span>
-                <input type="correo" placeholder="Correo">
-                <input type="contraseña" placeholder="Contraseña">
+                <input type="correo" placeholder="Correo" required>
+                <input type="contraseña" placeholder="Contraseña" required>
                 <a href="#">Olvidaste tu contraseña?</a>
-                <button>¡Inicia Sesión!</button>
+                <button class="login" id="dos">¡Inicia Sesión!</button>
             </form>
         </div>
-        <div class="toggle-container">
+        <div class="toggle-container" style="background: linear-gradient(to right, #000000, #2b2b2b);">
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
                     <h1>Bienvenid@ otra vez!</h1>
@@ -68,5 +69,6 @@
 
 
     <script src="login.js"></script>
+    
 </body>
 </html>

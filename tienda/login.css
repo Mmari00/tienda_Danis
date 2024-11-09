@@ -160,9 +160,9 @@ body{
 }
 
 .toggle{
-    background-color: #512da8;
+    
     height: 100%;
-    background: linear-gradient(to right, #5c6bc0, #512da8);
+    
     color: #fff;
     position: relative;
     left: -100%;
@@ -208,4 +208,6 @@ body{
     transform: translateX(200%);
 }
 
-
+#uno, #dos{
+    background-color: #2b2b2b;
+}
